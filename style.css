@@ -1,0 +1,68 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    color: black;
+  }
+  section {
+    width: 1200px;
+    height: 100%;
+  }
+  .title {
+    font-size: 55px;
+  }
+  .paragraph {
+    font-size: 18px;
+    width: 50%;
+  }
+  button {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px
+  }
+  #copy-rights {
+    font-size: 18px;
+  }
+  .topnav-right {
+    float: right;
+    text-align: center;
+    font-size: 18px;
+  }
+  h1 {
+    text-align: left;
+    color: black;
+    width: 50%;
+    height: 100%;
+  }
+  p1 {
+    text-align: left;
+    color: black;
+    width: 50%;
+    height: 100%;
+  }
+  h2 {
+    text-align: right;
+    color: black;
+    width: 50%;
+    height: 100%;
+  }
+  p2 {
+    text-align: right;
+    color: black;
+    width: 50%;
+    height: 100%;
+  }
+    .container {
+      display: flex;
+    }
+
+    .overlay1 {
+      position:absolute;
+      top:1fr;
+      left:0;
+      z-index:1;
+      color: red;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
