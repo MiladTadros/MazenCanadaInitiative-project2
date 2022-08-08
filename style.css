@@ -3,66 +3,162 @@ body {
     background-color: white;
     color: black;
   }
+  *{
+    box-sizing: border-box;
+  }
   section {
     width: 1200px;
-    height: 100%;
   }
-  .title {
+  .title1 {
     font-size: 55px;
+    display: inline-block;
+    width: 500px;
+    height: 315;
+    position: relative;
+    bottom: 50px;
   }
-  .paragraph {
+  .title2 {
+    font-size: 55px;
+    display: inline-block;
+    width: 300px;
+    height: 315;
+    position: relative;
+    bottom: 430px;
+    left: 750px;
+  }
+  .title3 {
+    font-size: 55px;
+    display: inline-block;
+    width: 700px;
+    height: 315;
+    position: relative;
+    bottom: 300px;
+  }
+  .paragraph1 {
     font-size: 18px;
-    width: 50%;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    bottom: 50px;
   }
-  button {
+  .paragraph2 {
+    font-size: 18px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    bottom: 430px;
+    left: 600px;
+  }
+  .button1 {
     font-size: 18px;
     font-weight: bold;
-    border-radius: 10px
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    bottom: 20px;
+  }
+  .button2 {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    bottom: 350px;
+    left: 625px;
+  }
+  .button3 {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    bottom: 400px;
+    left: 800px;
   }
   #copy-rights {
-    font-size: 18px;
-  }
-  .topnav-right {
-    float: right;
-    text-align: center;
     font-size: 18px;
   }
   h1 {
     text-align: left;
     color: black;
-    width: 50%;
-    height: 100%;
   }
   p1 {
     text-align: left;
     color: black;
-    width: 50%;
-    height: 100%;
   }
   h2 {
     text-align: right;
     color: black;
-    width: 50%;
-    height: 100%;
   }
   p2 {
     text-align: right;
     color: black;
-    width: 50%;
-    height: 100%;
   }
-    .container {
-      display: flex;
-    }
-
     .overlay1 {
-      position:absolute;
-      top:1fr;
-      left:0;
+      display: inline-block;
+      width: 350px;
+      position:relative;
+      bottom: 350px;
+      left: 25px;
       z-index:1;
-      color: red;
+      color: black;
+      background-color: white;
+      font-weight: bold;
   }
-  
+  .overlay2 {
+      display: inline-block;
+      width: 350px;
+      position:relative;
+      bottom:350px;
+      left:60px;
+      z-index:1;
+      color: black;
+      background-color: white;
+      font-weight: bold;
+}
+.overlay3 {
+      display: inline-block;
+      width: 350px;
+      position:relative;
+      bottom:350px;
+      left: 90px;
+      z-index:1;
+      color: black;
+      background-color: white;
+      font-weight: bold;
+}
+  .youtube {
+    position: relative;
+    bottom: 50px;
+    left: 900px
+  }
+  .about {
+    position: relative;
+    bottom: 50px;
+    left: 950px
+  }
+  #mazen-vid1{
+    display: inline-block;
+    position: relative;
+    float: right;
+  }
+  #mazen-vid2{
+    display: inline-block;
+    position: relative;
+    bottom: 300px;
+  }
+  #mazen-vid3{
+    display: inline-block;
+    position: relative;
+    bottom: 300px;
+  }
+  #mazen-vid4{
+    display: inline-block;
+    position: relative;
+    bottom: 300px;
+  }
   .footer-section {
     text-align: center;
+    position: relative;
+    bottom: 300px;
   }
