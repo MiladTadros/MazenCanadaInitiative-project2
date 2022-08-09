@@ -1,0 +1,128 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    color: black;
+  }
+  *{
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+  }
+  nav {
+    font-size: 18px;
+  }
+  section {
+    width: 1200px;
+  }
+  .title {
+    font-size: 55px;
+    display: inline-block;
+    width: 900px;
+    position: relative;
+    left: 350px;
+  }
+  .paragraph {
+    font-size: 18px;
+    display: inline-block;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 230px;
+  }
+  .title1 {
+    font-size: 55px;
+    display: inline-block;
+    width: 900px;
+    position: relative;
+    left: 370px;
+    top: 100px;
+  }
+  .youtube-icon {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 200px;
+  }
+  .youtube-channel {
+    font-size: 40px;
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    left: 150px;
+    bottom: 200px;
+  }
+  .paragraph1 {
+    font-size: 18px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    left: 650px;
+    bottom: 200px;
+    text-align: justify;
+  }
+  .paragraph2 {
+    font-size: 18px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    bottom: 70px;
+    text-align: justify;
+  }
+  .paragraph3 {
+    font-size: 18px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    left: 650px;
+    bottom: 50px;
+    text-align: justify;
+  }
+  .instgram-icon {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 850px;
+    top: 100px;
+  }
+  
+  .instgram {
+    font-size: 40px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    bottom: 50px;
+  }
+  .paragraph4 {
+    font-size: 18px;
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    right: 500px;
+    top: 50px;
+  }
+  
+  .youtube {
+    position: relative;
+    bottom: 50px;
+    left: 900px
+  }
+  .about {
+    position: relative;
+    bottom: 50px;
+    left: 950px
+  }
+  a {
+    color: #B67DFF;
+  }
+  
+  
+  
+  #copy-rights {
+    font-size: 18px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+  }
+  
+ 
